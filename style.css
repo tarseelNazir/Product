@@ -176,7 +176,7 @@ list-style: none;
         max-width: 30%;
     position: relative;
     left: 150px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
        
     }
     .card-title{
@@ -190,13 +190,20 @@ list-style: none;
     }
     .card {
         width: 25rem;
-        transform: rotate(-2deg);
         transition: transform 0.3s ease-in-out;
     }
     
     .card:hover {
-        transform: rotate(0deg);
+        transform: rotate(4deg);
     }
+    .card:hover ~ .card {
+        transform: rotate(0deg); 
+    }
+
+.card:not(:hover) {
+    transform: rotate(0deg); /* Ensure non-hovered cards stay in place */
+}
+
     h5:hover{
         color: #ff6347;
     }
