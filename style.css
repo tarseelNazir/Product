@@ -189,7 +189,7 @@ list-style: none;
     }
     .card {
         width: 25rem;
-        transform: rotate(-3deg);
+        transform: rotate(-2deg);
         transition: transform 0.3s ease-in-out;
     }
     
