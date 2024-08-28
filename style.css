@@ -61,6 +61,7 @@ list-style: none;
     cursor: pointer;
     padding-left: 20rem;
     padding-bottom: 10px;
+    z-index: 1000; 
 }
 .hero-section {
     margin-top: 2rem;
