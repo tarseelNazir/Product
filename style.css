@@ -11,58 +11,11 @@ body{
     background-color: #f0f0f0;
    
 }
-.navbar{
-   display: flex;
-   justify-content:space-between;
-   align-items: center;
-   background-color:#ff6347;
- width: 100%;
- height: 100px;
+
+nav{
+    background-color: #ff6347;
 }
 
- .navbar .navbar-brand{
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 5px;
-    margin: 1.5rem;
-    color:white;
-
- } 
- 
- .navbar .navbar-nav{
-   position: absolute;
-   right: 30px;
-   background-color: #ff6347;
- 
- }
-
-.navbar .nav-item{
- display: flex;
-margin-left: auto;
-list-style: none;
- 
-}
-.navbar .nav-link{
-    padding: 20px;
-    margin: 0.5rem 1rem;
-    font-size: 1.5rem;
-   color:#fff;
-   cursor: pointer;
-}
-.nav-link:hover{
-    text-decoration: underline;
-}
-.navbar-toggle {
-    display: block;
-    font-size: 24px;
-    color: white;
-    background-color:#ff6347;
-    border: none;
-    cursor: pointer;
-    padding-left: 20rem;
-    padding-bottom: 10px;
-    z-index: 1000; 
-}
 .hero-section {
     margin-top: 2rem;
    background-color: #f9f9f9;
